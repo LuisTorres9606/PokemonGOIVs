@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+                <android.support.design.widget.FloatingActionButton
+            android:src="@android:drawable/ic_input_add"
+            android:layout_gravity="center_vertical|start"
+            android:layout_height="56dp"
+            android:layout_width="56dp"
+            android:id="@+id/More"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="43dp" />
+
+        <!--Generaciones-->
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:src="@drawable/poke"
+            android:layout_gravity="center_vertical|start"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:id="@+id/Segunda"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/More"
+            android:layout_alignLeft="@+id/More"
+            android:layout_alignStart="@+id/More"
+            android:visibility="invisible"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:src="@drawable/poke"
+            android:layout_gravity="center_vertical|start"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:id="@+id/Tercera"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/Segunda"
+            android:layout_alignLeft="@+id/Segunda"
+            android:layout_alignStart="@+id/Segunda"
+            android:visibility="invisible"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:src="@drawable/poke"
+            android:layout_gravity="center_vertical|start"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:id="@+id/Cuarta"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/Tercera"
+            android:layout_alignLeft="@+id/Tercera"
+            android:layout_alignStart="@+id/Tercera"
+            android:visibility="invisible"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:src="@drawable/poke"
+            android:layout_gravity="center_vertical|start"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/Quinta"
+            android:layout_above="@+id/Cuarta"
+            android:layout_alignLeft="@+id/Cuarta"
+            android:layout_alignStart="@+id/Cuarta"
+            android:visibility="invisible"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:src="@drawable/poke"
+            android:layout_gravity="center_vertical|start"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:id="@+id/Sexta"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/Quinta"
+            android:layout_alignLeft="@+id/Quinta"
+            android:layout_alignStart="@+id/Quinta"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignStart="@+id/More"
+            android:layout_alignLeft="@+id/More"
+            android:text="@string/DOS"
+            android:layout_above="@+id/More"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="bottom"
+            android:visibility="invisible"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:id="@+id/GS"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignStart="@+id/Segunda"
+            android:layout_alignLeft="@+id/Segunda"
+            android:text="@string/TRES"
+            android:layout_above="@+id/Segunda"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="bottom"
+            android:visibility="invisible"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:id="@+id/GT"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignStart="@+id/Tercera"
+            android:layout_alignLeft="@+id/Tercera"
+            android:text="@string/CUATRO"
+            android:layout_above="@+id/Tercera"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="bottom"
+            android:visibility="invisible"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:id="@+id/GC"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignStart="@+id/Cuarta"
+            android:layout_alignLeft="@+id/Cuarta"
+            android:text="@string/CINCO"
+            android:layout_above="@+id/Cuarta"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="bottom"
+            android:visibility="invisible"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:id="@+id/GQ"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignStart="@+id/Quinta"
+            android:layout_alignLeft="@+id/Quinta"
+            android:text="@string/SEIS"
+            android:layout_above="@+id/Quinta"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="bottom"
+            android:visibility="invisible"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:id="@+id/GSX"
+            />
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

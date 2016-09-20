@@ -1,0 +1,325 @@
+<resources>
+    <string name="app_name">Pokemon GO IVs</string>
+    <string name="action_settings">Acerca</string>
+    <string name="Select">Selecciona un Pokémon</string>
+    <string name="Buscar">Buscar</string>
+
+
+    <string name="DOS">Segunda Generación</string>
+    <string name="TRES">Tercera Genaración</string>
+    <string name="CUATRO">Cuarta Generación</string>
+    <string name="CINCO">Quinta Generación</string>
+    <string name="SEIS">Sexta Generación</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <string-array name="pokemon">
+        <item>#1 Bulbasaur</item>
+        <item>#2 Ivysaur</item>
+        <item>#3 Venusaur</item>
+        <item>#4 Charmander</item>
+        <item>#5 Charmeleon</item>
+        <item>#6 Charizard</item>
+        <item>#7 Squirtle</item>
+        <item>#8 Wartortle</item>
+        <item>#9 Blastoise</item>
+        <item>#10 Caterpie</item>
+        <item>#11 Metapod</item>
+        <item>#12 Butterfly</item>
+        <item>#13 Weedle </item>
+        <item>#14 Kakuna</item>
+        <item>#15 Beedrill</item>
+        <item>#16 Pidgey</item>
+        <item>#17 Pidgeotto</item>
+        <item>#18 Pidgeot</item>
+        <item>#19 Rattata</item>
+        <item>#20 Raticate</item>
+        <item>#21 Spearow</item>
+        <item>#22 Fearrow</item>
+        <item>#23 Ekans</item>
+        <item>#24 Arbok</item>
+        <item>#25 Pikachu</item>
+        <item>#26 Raichu</item>
+        <item>#27 Sandhrew</item>
+        <item>#28 Sandslash</item>
+        <item>#29 Nidoran♀</item>
+        <item>#30 Nidorina</item>
+        <item>#31 Nidoqueen</item>
+        <item>#32 Nidoran♂ </item>
+        <item>#33 Nidorino</item>
+        <item>#34 Nidoking</item>
+        <item>#35 Clefairy</item>
+        <item>#36 Clefable</item>
+        <item>#37 Vulpix</item>
+        <item>#38 Ninetales</item>
+        <item>#39 Jigglypuff</item>
+        <item>#40 Wigglytuff</item>
+        <item>#41 Zubat </item>
+        <item>#42 Golbat</item>
+        <item>#43 Oddish</item>
+        <item>#44 Gloom</item>
+        <item>#45 Vilepume</item>
+        <item>#46 Paras</item>
+        <item>#47 Parasect</item>
+        <item>#48 Venonant</item>
+        <item>#49 Venomoth</item>
+        <item>#50 Diglett</item>
+        <item>#51 Dugtrio</item>
+        <item>#52 Meowth</item>
+        <item>#53 Persian</item>
+        <item>#54 Psyduck</item>
+        <item>#55 Golduck</item>
+        <item>#56 Mankey</item>
+        <item>#57 Primeape</item>
+        <item>#58 Growlithe</item>
+        <item>#59 Arcaine</item>
+        <item>#60 Poliwag</item>
+        <item>#61 Polowhirl</item>
+        <item>#62 Polowrath</item>
+        <item>#63 Abra</item>
+        <item>#64 Kadabra</item>
+        <item>#65 Alakazam</item>
+        <item>#66 Machop</item>
+        <item>#67 Machoke</item>
+        <item>#68 Machamp</item>
+        <item>#69 Bellsprout</item>
+        <item>#70 Weepinbell</item>
+        <item>#71 Victreebel</item>
+        <item>#72 Tentacool</item>
+        <item>#73 Tentacruel</item>
+        <item>#74 Geodude</item>
+        <item>#75 Graveler</item>
+        <item>#76 Golem</item>
+        <item>#77 Ponyta</item>
+        <item>#78 Rapidash</item>
+        <item>#79 Slowpoke</item>
+        <item>#80 Slowbro</item>
+        <item>#81 Magnemite</item>
+        <item>#82 Magneton</item>
+        <item>#83 Farfetchd</item>
+        <item>#84 Doduo</item>
+        <item>#85 Dodrio</item>
+        <item>#86 Seel</item>
+        <item>#87 Dewgong</item>
+        <item>#88 Grimer</item>
+        <item>#89 Muk</item>
+        <item>#90 Shellder</item>
+        <item>#91 Clyster</item>
+        <item>#92 Gastly</item>
+        <item>#93 Haunter</item>
+        <item>#94 Gengar</item>
+        <item>#95 Onix</item>
+        <item>#96 Drowzee</item>
+        <item>#97 Hypno</item>
+        <item>#98 Krabby</item>
+        <item>#99 Kingler</item>
+        <item>#100 Voltorb</item>
+        <item>#101 Electrode</item>
+        <item>#102 Exeggcute</item>
+        <item>#103 Exeggutor</item>
+        <item>#104 Cubone</item>
+        <item>#105 Marowak</item>
+        <item>#106 Hitmonlee</item>
+        <item>#107 Hitmonchan</item>
+        <item>#108 Lickitung</item>
+        <item>#109 Koffing</item>
+        <item>#110 Weezing</item>
+        <item>#111 Rhyhorn</item>
+        <item>#112 Rhydon</item>
+        <item>#113 Chansey</item>
+        <item>#114 Tangela</item>
+        <item>#115 Kangaskhan</item>
+        <item>#116 Horsea</item>
+        <item>#117 Seadra</item>
+        <item>#118 Golden</item>
+        <item>#119 Seaking</item>
+        <item>#120 Staryu</item>
+        <item>#121 Starmie</item>
+        <item>#122 Mr. Mime</item>
+        <item>#123 Scyther</item>
+        <item>#124 Jynx</item>
+        <item>#125 Electabuzz</item>
+        <item>#126 Magmar</item>
+        <item>#127 Pinsir</item>
+        <item>#128 Tauros</item>
+        <item>#129 Magikarp</item>
+        <item>#130 Gyarados</item>
+        <item>#131 Lapras</item>
+        <item>#132 Ditto</item>
+        <item>#133 Eevee</item>
+        <item>#134 Vaporeon</item>
+        <item>#135 Jolteon</item>
+        <item>#136 Flareon</item>
+        <item>#137 Porygon</item>
+        <item>#138 Omanyte</item>
+        <item>#139 Omaster</item>
+        <item>#140 Kabuto</item>
+        <item>#141 Kabutops</item>
+        <item>#142 Aerodactyl</item>
+        <item>#143 Snorlax</item>
+        <item>#144 Articuno</item>
+        <item>#145 Zapdos</item>
+        <item>#146 Moltres</item>
+        <item>#147 Dratini</item>
+        <item>#148 Dragonair</item>
+        <item>#149 Dragonite</item>
+        <item>#150 Mewtwo</item>
+        <item>#151 Mew</item>
+    </string-array>
+
+
+    <string-array name="Imagenes">
+        <item>@drawable/bulbasaur</item>
+        <item>@drawable/ivysaur</item>
+        <item>@drawable/venusaur</item>
+        <item>@drawable/charmander</item>
+        <item>@drawable/charmeleon</item>
+        <item>@drawable/charizard</item>
+        <item>@drawable/squirtle</item>
+        <item>@drawable/wartortle</item>
+        <item>@drawable/blastoide</item>
+        <item>@drawable/caterpie</item>
+        <item>@drawable/metapod</item>
+        <item>@drawable/butterfly</item>
+        <item>@drawable/weedle </item>
+        <item>@drawable/kakuna</item>
+        <item>@drawable/beedrill</item>
+        <item>@drawable/pidgey</item>
+        <item>@drawable/pidgeotto</item>
+        <item>@drawable/pidgeot</item>
+        <item>@drawable/rattata</item>
+        <item>@drawable/raticate</item>
+        <item>@drawable/spearow</item>
+        <item>@drawable/fearow</item>
+        <item>@drawable/ekans</item>
+        <item>@drawable/arbok</item>
+        <item>@drawable/pikachu</item>
+        <item>@drawable/raichu</item>
+        <item>@drawable/sandshrew</item>
+        <item>@drawable/sandslash</item>
+        <item>@drawable/nidoran</item>
+        <item>@drawable/nidorina</item>
+        <item>@drawable/nidoqueen</item>
+        <item>@drawable/nidorans </item>
+        <item>@drawable/nidorino</item>
+        <item>@drawable/nidoking</item>
+        <item>@drawable/clefairy</item>
+        <item>@drawable/clefable</item>
+        <item>@drawable/vulpix</item>
+        <item>@drawable/ninetales</item>
+        <item>@drawable/jigglypuff</item>
+        <item>@drawable/wigglytuff</item>
+        <item>@drawable/zubat </item>
+        <item>@drawable/golbat</item>
+        <item>@drawable/oddish</item>
+        <item>@drawable/gloom</item>
+        <item>@drawable/vileplume</item>
+        <item>@drawable/paras</item>
+        <item>@drawable/parasect</item>
+        <item>@drawable/venonat</item>
+        <item>@drawable/venomoth</item>
+        <item>@drawable/diglett</item>
+        <item>@drawable/dugtrio</item>
+        <item>@drawable/meowth</item>
+        <item>@drawable/persian</item>
+        <item>@drawable/psyduck</item>
+        <item>@drawable/golduck</item>
+        <item>@drawable/mankey</item>
+        <item>@drawable/primeape</item>
+        <item>@drawable/growlithe</item>
+        <item>@drawable/arcanine</item>
+        <item>@drawable/poliwag</item>
+        <item>@drawable/poliwhrl</item>
+        <item>@drawable/poliwrath</item>
+        <item>@drawable/abra</item>
+        <item>@drawable/kadabra</item>
+        <item>@drawable/alakazam</item>
+        <item>@drawable/machop</item>
+        <item>@drawable/machoke</item>
+        <item>@drawable/machamp</item>
+        <item>@drawable/bellsprout</item>
+        <item>@drawable/weepinbell</item>
+        <item>@drawable/victreebel</item>
+        <item>@drawable/tentacool</item>
+        <item>@drawable/tentacruel</item>
+        <item>@drawable/geodude</item>
+        <item>@drawable/graveler</item>
+        <item>@drawable/golem</item>
+        <item>@drawable/ponyta</item>
+        <item>@drawable/rapidash</item>
+        <item>@drawable/slowpoke</item>
+        <item>@drawable/slowbro</item>
+        <item>@drawable/magnemite</item>
+        <item>@drawable/magneton</item>
+        <item>@drawable/farfetchd</item>
+        <item>@drawable/doduo</item>
+        <item>@drawable/dodrio</item>
+        <item>@drawable/seel</item>
+        <item>@drawable/dewgong</item>
+        <item>@drawable/grimer</item>
+        <item>@drawable/muk</item>
+        <item>@drawable/shellder</item>
+        <item>@drawable/cloyster</item>
+        <item>@drawable/gastly</item>
+        <item>@drawable/haunter</item>
+        <item>@drawable/gengar</item>
+        <item>@drawable/onix</item>
+        <item>@drawable/drowzee</item>
+        <item>@drawable/hypno</item>
+        <item>@drawable/krabby</item>
+        <item>@drawable/kingler</item>
+        <item>@drawable/voltorb</item>
+        <item>@drawable/electroide</item>
+        <item>@drawable/exeggcute</item>
+        <item>@drawable/exeggutor</item>
+        <item>@drawable/cubone</item>
+        <item>@drawable/marowak</item>
+        <item>@drawable/hitmonlee</item>
+        <item>@drawable/hitmonchan</item>
+        <item>@drawable/lickitung</item>
+        <item>@drawable/koffing</item>
+        <item>@drawable/weezing</item>
+        <item>@drawable/rhyhorm</item>
+        <item>@drawable/rhydon</item>
+        <item>@drawable/chansey</item>
+        <item>@drawable/tangela</item>
+        <item>@drawable/kangaskhan</item>
+        <item>@drawable/horsea</item>
+        <item>@drawable/seadra</item>
+        <item>@drawable/golden</item>
+        <item>@drawable/seaking</item>
+        <item>@drawable/staryu</item>
+        <item>@drawable/starmie</item>
+        <item>@drawable/mr_mine</item>
+        <item>@drawable/scyther</item>
+        <item>@drawable/jynx</item>
+        <item>@drawable/electabuzz</item>
+        <item>@drawable/magmar</item>
+        <item>@drawable/pinsir</item>
+        <item>@drawable/tauros</item>
+        <item>@drawable/magikarp</item>
+        <item>@drawable/gyarados</item>
+        <item>@drawable/lapras</item>
+        <item>@drawable/ditto</item>
+        <item>@drawable/eevee</item>
+        <item>@drawable/vaporeon</item>
+        <item>@drawable/jolteon</item>
+        <item>@drawable/flareon</item>
+        <item>@drawable/porygon</item>
+        <item>@drawable/omanyte</item>
+        <item>@drawable/omastar</item>
+        <item>@drawable/kabuto</item>
+        <item>@drawable/kabutops</item>
+        <item>@drawable/aerodactyl</item>
+        <item>@drawable/snorlax</item>
+        <item>@drawable/articuno</item>
+        <item>@drawable/zapdos</item>
+        <item>@drawable/moltres</item>
+        <item>@drawable/dratini</item>
+        <item>@drawable/dragonair</item>
+        <item>@drawable/dragonite</item>
+        <item>@drawable/mewtwo</item>
+        <item>@drawable/mew</item>
+    </string-array>
+
+</resources>

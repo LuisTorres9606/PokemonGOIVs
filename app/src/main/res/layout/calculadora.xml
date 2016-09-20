@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/images1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombre"
+        android:id="@+id/NombrePerfil"
+        android:textSize="25sp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/Perfil"
+        android:src="@drawable/machop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/NombrePerfil"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Puntos"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginTop="240dp"
+        android:singleLine="true"
+        android:textSize="25sp"
+        android:layout_alignLeft="@+id/Perfil"
+        android:layout_alignStart="@+id/Perfil" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/Pri"
+        android:layout_marginLeft="25dp"
+        android:layout_alignTop="@+id/Tre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/Seg"
+        android:layout_marginRight="25dp"
+        android:layout_alignTop="@+id/Tre"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CP"
+        android:id="@+id/SeEvu"
+        android:textSize="25sp"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Perfil"
+        android:layout_toEndOf="@+id/Perfil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/CP1"
+        android:layout_marginLeft="13dp"
+        android:textSize="25sp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/Pri"
+        android:layout_alignLeft="@+id/Pri"
+        android:layout_alignStart="@+id/Pri" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="13dp"
+        android:id="@+id/CP2"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/CP1"
+        android:layout_alignLeft="@+id/Seg"
+        android:layout_alignStart="@+id/Seg" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/Tre"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/Puntos"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/CP3"
+        android:layout_marginLeft="13dp"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/CP2"
+        android:layout_alignLeft="@+id/Tre"
+        android:layout_alignStart="@+id/Tre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/CP4"
+        android:textSize="25sp"
+        android:layout_above="@+id/Pri"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
